@@ -23,4 +23,17 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+
+  .animate-fadeOut {
+    animation: fadeOut 0.5s forwards;
+  }
+
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
 }
